@@ -44,11 +44,10 @@
 .. toctree::
    :maxdepth: 2
 
-   test
-   rastrova_data/index
-   vektorova_data/index
-   data/index
-   ruzne/index
+   gis_uvod/index
+   ogc_web/index
+   verejna_data/index
+   dalkovy_pruzkum/index
 
 *******
 Dodatky
