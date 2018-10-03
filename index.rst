@@ -48,6 +48,8 @@
    ogc_web/index
    verejna_data/index
    dalkovy_pruzkum/index
+   python/index
+   r/index
 
 *******
 Dodatky
