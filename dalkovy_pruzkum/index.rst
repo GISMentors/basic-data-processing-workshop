@@ -8,4 +8,4 @@ Dálkový průzkum země (Remote Sensing)
    :maxdepth: 2
 
    landsat
-   copernicus
+   sentinel
