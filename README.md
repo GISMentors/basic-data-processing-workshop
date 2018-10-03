@@ -1,7 +1,9 @@
-Školení GRASS GIS pro začátečníky
-=================================
+Jak využít družicová data (Q-TON 3.0 workshop)
+==============================================
 
-http://training.gismentors.eu/grass-gis-zacatecnik
+Harmonogram
+-----------
+https://docs.google.com/spreadsheets/d/1jBJN09rSzNPbWhQr-G-qX0_YEFE43iKJsjerLBmbzY4/edit#gid=0
 
 Licence
 -------
