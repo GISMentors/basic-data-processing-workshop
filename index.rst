@@ -44,7 +44,7 @@
 .. toctree::
    :maxdepth: 2
 
-   intro/index
+   test
    rastrova_data/index
    vektorova_data/index
    data/index
