@@ -64,6 +64,13 @@ monitorování pevniny a oceánů.
 
 **Prostorové rozlišení** 300 - 500 m
 
+.. figure:: images/sentinel3-1.png
+        :scale-latex: 80
+
+.. figure:: images/sentinel3-2.png
+        :scale-latex: 80
+
+
 Sentinel 4
 ^^^^^^^^^^
 Mise Sentinel 4 reprezentuje geostacionární složku Evropské operační mise pro
@@ -89,3 +96,43 @@ délky pod 300 nm
 Stažení dat Sentinel
 --------------------
 
+Copernicus Open Access Hub
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Oficiální přístup k čerstvým datům programu Sentinel je na adrese
+https://scihub.copernicus.eu/
+
+Je nutné se registrovat. Portál zpřístupňuje data ze satelitů Sentinel 1-3 a
+předprodukční data ze Sentinelu 5.
+
+.. figure:: ../images/scihub.png
+        :scale-latex: 80
+
+Copernicus ApiHub
+^^^^^^^^^^^^^^^^^
+
+Copernicus má API pro stahování dat, dostupné na adrese https://scihub.copernicus.eu/apihub/
+ s dokumentací na https://scihub.copernicus.eu/twiki/do/view/SciHubUserGuide/BatchScripting?redirectedfrom=SciHubUserGuide.8BatchScripting
+
+**Moduly pro Python**
+
+* `srihub` - Unofficial scihub API
+* `sentinelsat` - Utility to search and download Copernicus Sentinel satellite images
+* `sentinel-s3` - Python libraries for extracting Sentinel-2's metadata from Amazon S3
+* `sentinelhub` - Sentinel Hub Utilities
+* `sentinelflow` - Automated satellite image workflow for Sentinel-2.
+* `s2cloudless` - Sentinel Hub's cloud detector for Sentinel-2 imagery
+
+Sentinel Hub
+^^^^^^^^^^^^^
+Alternativní přístup od Sinergise https://www.sentinel-hub.com/
+
+Aplikace Playground, Explorer, ... https://apps.sentinel-hub.com/eo-browser/
+
+.. figure:: ../images/sentinelhub.png
+        :scale-latex: 80
+
+Portál umožňuje jednoduché analýzy na klientovi on-line a stáhnout data ve
+formátu GeoTIFF a JPG.
+
+Víc o možnosti EOExploreru např. v `blogu GISMentors <http://gismentors.cz/blog/valka-v-syrii-v-primem-prenosu-dpz-pro-zacatecniky/>`_.
