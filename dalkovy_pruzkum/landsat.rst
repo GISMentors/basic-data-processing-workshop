@@ -3,7 +3,7 @@ NASA/USGS - Landsat
 *******************
 .. note:: Tato stránka je postavena na obsahu oficiálního stránky projektu Landsat https://landsat.usgs.gov/
 
-Projekt Landsat reprezentuje nejdelší (od 1972) kontinuální sběr družicových dat středního rozlišení. Data jsou celosvětově využívána v zemědělství, geologii, lesnictví, v regionálním plánování nebo ve výzkumu globální změny. Projekt vznikl jako společná iniciativa U.S. Geological Survey (USGS) a NASA.
+Projekt Landsat reprezentuje nejdelší (od 1972) kontinuální sběr družicových dat středního rozlišení. Data jsou celosvětově využívána v zemědělství, geologii, lesnictví, v regionálním plánování nebo ve výzkumu globální změny. Projekt vznikl jako společná iniciativa U.S. Geological Survey (USGS) a NASA. Od roku 2008 jsou data poskytována zdarma, do roku 2008 stáhla data přibližně 600 dolarů za snímek. V současnosti se diskutuje o možnosti spoplatnění dat (https://www.nature.com/articles/d41586-018-04874-y, https://philippgaertner.github.io/2018/06/landsat-cost-estimator/)
 
 
 ===============
@@ -16,7 +16,7 @@ Program Landsat
 
 **Rozsah scény:** 170 km x 185 km
 
-**Perioda oběhu:** Landsat 1-3 - 18 dní; Landsat 4-8 - 16 dní
+**Perioda oběhu:** Landsat 1-3 - 18 dní; Landsat 4-8 - 16 dní, přičemž dráhy Landsat 8 a 7 jsou v posunu tak aby byla oblast snímkovaná každých 8 dní
 
 Landsat 1
 ^^^^^^^^^
@@ -129,8 +129,45 @@ Operational Land Imager-2 (OLI-2)
 
 Thermal Infrared Sensor-2 (TIRS-2)
 
-Stažení dat Landsat
--------------------
+
+Data Landsat
+------------
+Data jsou v archivu rozděleny do kolekcí - Landsat Collection Tiers podle míry předzpracování.
+
+    *Tier 1 (T1)* - L1TP data po korekcích, kalibrována mezi různými senzory, připravena k analýzám časových řad
+
+    *Tier 2 (T2)* - data, která nesplňují podmínky T1
+    
+    *Real-Time (RT)* - označení pro nově pořízená data, která jsou před zpracováním, potom se přesouvají do T1 nebo T2
+
+
+.. figure:: images/landsat_productID.jpg
+   :class: middle 
+   :scale-latex: 40 
+
+   Metoda označení snímků
+
+
+Datové produkty jsou dostupné ve dvou úrovních, *Landsat Level-1 Data Products*, data k okamžitému stažení a *Landsat Level-2 Science Products*, které jsou na požádání. Level-2 data jsou data odrazivosti (Surface Reflectance - SR) a další deriváty: top-of-atmosphere (TOA) a indexy (NDVI, NDMI, NBR, SAVI, EVI).
+
+Stažení dat
+^^^^^^^^^^^
+
+EarthExplorer - grafický interface pro získávání dat
+
+The File List Ordering Tool  - pořízení dat na základě textového seznamu snímků
+
+The Bulk Download Application (BDA) - nástroj pro hromadné stažení objednávky nebo seznamu vybraných dat
+
+
+pro Landsat Level-2 Science Products:
+
+USGS Earth Resources Observation and Science (EROS) Center Science Processing Architecture (ESPA) On Demand Interface - umožňuje nahrání textového souboru (*.txt) s Landsat Collection 1 Level-1 a MODIS snímky. Lze zvolit požadované zmiňované produkty (TOA, SR, indexy), a nastavení výstupů, k dispozici je i tvorba grafů.
+
+Objednávka na ESPA bývá vyříézena během 2-5 dnů, v závislosti na její velikosti, uživatel dostane notifikaci přes email.
+
+ESPA Application Programming Interface (API)
+
 
 Specifikace pásem senzorů
 -------------------------
