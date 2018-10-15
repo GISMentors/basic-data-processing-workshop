@@ -22,11 +22,9 @@ Program Sentinel
 Družice Sentinel, vyvíjené v rámci kosmické komponenty Copernicus, tvoří celkem
 5 řad - Sentinely 1 až 5.
 
-Družice Sentinel
-^^^^^^^^^^------
-
 Sentinel 1
-^^^^^^^^^^
+----------
+
 Mise Sentinel 1 je zaměřena na sledování pevniny a moří, zejména monitorování
 mořského ledu, oceánských vod, mořského pobřeží i polárních oblastí a navazuje
 zejména na úspěšné mise družic Envisat a ERS-1. 
@@ -42,7 +40,7 @@ Evropa a Kanada 1-3 dny
 **Prostorové rozlišení:** 5-40 m (v závislosti na módu)
 
 Sentinel 2
-^^^^^^^^^^
+----------
 
 Družice Sentinel 2 jsou určeny především pro monitoring krajinného pokryvu a
 mapování změn v území a využití ploch. Na své palubě nesou multispektrální
@@ -53,7 +51,7 @@ senzor, který navazuje na odkaz misí Landsat a SPOT.
 **Prostorové rozlišení:** 10-60 m (v závislosti na spektrálním pásmu)
 
 Sentinel 3
-^^^^^^^^^^
+----------
 
 Družice Sentinel 3 budou poskytovat optická multispektrální i radarová data
 středního rozlišení, čímž navážou především na data z družic Envisat a
@@ -64,15 +62,15 @@ monitorování pevniny a oceánů.
 
 **Prostorové rozlišení** 300 - 500 m
 
-.. figure:: images/sentinel3-1.png
+.. figure:: ../images/sentinel3-1.png
         :scale-latex: 80
 
-.. figure:: images/sentinel3-2.png
+.. figure:: ../images/sentinel3-2.png
         :scale-latex: 80
 
 
 Sentinel 4
-^^^^^^^^^^
+----------
 Mise Sentinel 4 reprezentuje geostacionární složku Evropské operační mise pro
 sledování složení atmosféry. Primárním účelem je monitoring stopových plynů
 klíčových pro určování kvality ovzduší a to zejména O3, NO2, SO2, HCHO a
@@ -83,7 +81,7 @@ slunečního záření a monitoring klimatu.
         východ-západ na 45° s.š.
 
 Sentinel 5
-^^^^^^^^^^
+----------
 Mise Sentinel 5 je určena pro monitorování atmosféry a jejím cílem je sledování
 stopových plynů za účelem zjišťování chemického složení atmosféry a dále také
 podpora monitorování klimatu. 
