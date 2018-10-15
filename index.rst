@@ -103,10 +103,10 @@ Text dokumentu je licencován pod `Creative Commons Attribution-ShareAlike 4.0 I
 Autoři
 ------
 
-Za `GISMentors <http://www.gismentors.cz/>`_:
+Za `GISMentors <http://www.gismentors.cz/>`__:
 
-* `Jáchym Čepický <http://www.gismentors.cz/mentors/cepicky>`_ ``<jachym.cepicky opengeolabs.cz>``
-* `Oto Kaláb <http://www.gismentors.cz/mentors/kalab>`_ ``<oto.kalab opengeolabs.cz>``
+* `Jáchym Čepický <http://www.gismentors.cz/mentors/cepicky>`__ ``<jachym.cepicky opengeolabs.cz>``
+* `Oto Kaláb <http://www.gismentors.cz/mentors/kalab>`__ ``<oto.kalab opengeolabs.cz>``
 
 Text dokumentu
 --------------
