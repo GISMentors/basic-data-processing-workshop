@@ -12,11 +12,11 @@ světě.
 
 http://openstreetmap.org | http://openstreetmap.cz
 
-.. figure:: images/osm.png
+.. figure:: ../images/osm.png
         :scale-latex: 80
 
 
-.. figure:: images/josm.png
+.. figure:: ../images/josm.png
         :scale-latex: 80
 
 Kde stáhnout data z OSM
@@ -49,7 +49,7 @@ Podkladová data do QGIS
 
 QuickMapServices plugin http://nextgis.com/blog/quickmapservices/
 
-.. figure:: images/qms-project.png
+.. figure:: ../images/qms-project.png
         :scale-latex: 80
 
 ======================
@@ -89,4 +89,6 @@ Evropský INSPIRE GeoPortál: http://inspire-geoportal.ec.europa.eu/
 Další zdroje
 ============
 
-http://www.otevrenadata.cz/otevrena-data/zdroje-dat/
+* http://www.otevrenadata.cz/otevrena-data/zdroje-dat/
+* https://gisgeography.com/free-satellite-imagery-data-list/
+
