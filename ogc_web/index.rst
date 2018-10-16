@@ -1,8 +1,8 @@
 *********************
-OGS Open Web Services
+OGC Open Web Services
 *********************
 
-Open geospatial consortium Open Web Services (OGC OWS) jsou detailně popsány v 
+Open Geospatial Consortium Open Web Services (OGC OWS) jsou detailně popsány v 
 http://training.gismentors.eu/open-source-gis/standardy/ogc/index.html
 
 Minimální znalostní set je
